@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="hfdownload 个人 rclone Google Drive OAuth 应用的隐私政策，说明数据访问、使用、存储、分享与撤销方式。">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>隐私政策 / Privacy Policy · hfdownload</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><a class="brand" href="./">hfdownload<span>by zmlCOL</span></a><nav aria-label="主导航"><a href="./">应用首页</a><a href="#english">English</a></nav></header>
+<main class="policy">
+<div class="intro"><div class="eyebrow">Privacy &amp; control</div><h1>隐私政策</h1><p class="lead">hfdownload / 个人 rclone Google Drive 应用</p><p class="small">生效与更新日期：2026 年 10 月 28 日<br>维护者：zmlCOL · 适用于本应用及其静态说明网站</p></div>
+<h2>1. 应用与使用范围</h2><p>hfdownload 是由 zmlCOL 维护、供本人个人使用的 Google OAuth 应用，用于通过 rclone 在本人控制的电脑或服务器上访问、下载、备份与同步自己的 Google Drive 文件。它不是 Google 或 rclone 官方产品，当前不面向公众提供注册或托管文件服务。</p>
+<h2>2. 访问哪些数据，为什么访问</h2><p>在本人通过 Google 授权后，rclone 依据实际批准的权限访问 Google Drive 文件与元数据，例如文件内容、文件名、目录结构、文件 ID、大小和修改时间。只读权限用于列出与下载；如果批准读写权限，还可按本人命令上传、修改、移动或删除文件。实际权限以 Google 授权页面及 rclone 配置为准，应选择完成任务所需的最小范围。</p><p>OAuth 访问令牌与刷新令牌用于维持已批准的 API 访问。数据仅用于本人明确发起的文件管理、传输、同步和备份，不用于广告、用户画像或训练通用 AI/机器学习模型。</p>
+<h2>3. 数据存储与保护</h2><p>令牌和配置由本人运行的 rclone 保存在本人控制的设备或服务器上；下载文件、备份、缓存及运行日志也可能保存在本人指定的位置。日志可能包含文件名、路径和错误信息，应限制访问并在不再需要时删除。保留期限由本人决定，以完成上述个人用途所需为限。</p><p>本静态网站没有接收 Drive 数据的应用后端，不存储 Google 密码、Drive 文件或 OAuth 令牌。Google API 通信使用 HTTPS。本人应保护运行设备、限制配置文件权限，并使用适当的配置加密或磁盘加密，避免公开任何凭据。</p>
+<h2>4. 数据分享与有限使用</h2><p>Google Drive 数据仅在 Google 和本人指定、控制的设备或存储位置之间，按本人指令传输。本应用不出售 Google 用户数据，也不将其提供给广告商、数据经纪商或其他无关第三方。若本人明确配置其他存储目的地，相关传输受该目的地的隐私规则约束。</p><p>hfdownload 对从 Google API 获得的信息的使用与向其他应用的传输，将遵守 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>，包括其中的 Limited Use（有限使用）要求。</p>
+<h2>5. 撤销访问与删除数据</h2><p>可随时前往 <a href="https://myaccount.google.com/connections">Google 账号的第三方连接设置</a>，找到 hfdownload 并撤销授权。停止 rclone 任务后，可删除相应 remote 配置、令牌及设备上的副本、缓存和日志。撤销授权会阻止之后的 API 访问，但不会自动删除之前下载或备份的文件；这些副本需要在各存储位置单独清理。</p>
+<h2>6. 本网站的访问数据</h2><p>本网站由 GitHub Pages 托管，不添加广告、分析脚本、追踪 Cookie 或第三方字体。托管服务 GitHub 可能为安全和服务运行处理 IP 地址、请求信息等访问日志，详见 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 隐私声明</a>。访问外部链接后，适用相应服务的隐私政策。</p>
+<h2>7. 联系与政策更新</h2><p>如有隐私问题，请通过 <a href="https://github.com/zmlCOL/rclone-drive/issues">项目 GitHub Issues</a> 联系维护者 zmlCOL。Issues 是公开的，请只描述问题，不要提交密码、OAuth 令牌、客户端密钥、完整 rclone 配置或私人文件。此页面会随数据处理方式变更更新；若将来扩展用途或权限，应在访问新增数据前告知并重新取得相应同意。</p>
+<section id="english" lang="en"><h2>English summary</h2><p>hfdownload is a personal Google OAuth application maintained by zmlCOL for using rclone with the owner's Google Drive. Depending on consented scopes, it reads file content and metadata and may upload, modify, move or delete files only as directed by the owner. OAuth tokens, downloaded files, backups, caches and logs remain on owner-controlled devices or explicitly configured storage destinations, for as long as needed for those personal tasks.</p><p>This static website has no backend that receives Drive data or tokens, and adds no analytics, advertising or tracking cookies. GitHub Pages may process hosting access logs under GitHub's privacy statement. Google user data is not sold, used for advertising or used to train general-purpose AI models. Use and transfer of Google API data comply with the Google API Services User Data Policy, including Limited Use requirements.</p><p>Access can be revoked through Google Account third-party connections. Previously stored files, tokens, caches and logs must be removed separately from each device or destination. Contact zmlCOL through the project's public GitHub Issues without including secrets or private files. This policy is effective October 28, 2026.</p></section>
+</main>
+<footer><span>hfdownload · Maintained by zmlCOL</span><a href="./">返回应用首页</a></footer>
+</body></html>
